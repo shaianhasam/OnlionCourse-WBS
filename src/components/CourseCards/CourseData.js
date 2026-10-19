@@ -1,0 +1,96 @@
+
+import managementImage from "../../assets/course-management.jpg";
+import designImage from "../../assets/course-design.jpg";
+import financeImage from "../../assets/course-finance.jpg";
+import databaseImage from "../../assets/course-database.jpg";
+import riskImage from "../../assets/course-risk.jpg";
+import mernImage from "../../assets/course-mern.jpg";
+
+const courseData = [
+  {
+    id: 1,
+    category: "Management",
+    title: "Crisis management and problem-solving strategies",
+    image: managementImage,
+    price: "Free",
+    rating: "4.88",
+    reviews: "210",
+    lessons: 6,
+    enrolled: "25k",
+    buttonMode: "single",
+    detailsLink: "/courses/crisis-management",
+    enrollLink: "/courses/crisis-management/enroll",
+  },
+  {
+    id: 2,
+    category: "Design",
+    title: "Advanced photoshop techniques for designers",
+    image: designImage,
+    price: "Free",
+    rating: "5.00",
+    reviews: "1.2K",
+    lessons: 8,
+    enrolled: "25k",
+    buttonMode: "single",
+    detailsLink: "/courses/photoshop",
+    enrollLink: "/courses/photoshop/enroll",
+  },
+  {
+    id: 3,
+    category: "Finance",
+    title: "Operations management and process improvement",
+    image: financeImage,
+    price: "Free",
+    rating: "5.00",
+    reviews: "812",
+    lessons: 12,
+    enrolled: "23k",
+    buttonMode: "single",
+    detailsLink: "/courses/operations",
+    enrollLink: "/courses/operations/enroll",
+  },
+  {
+    id: 4,
+    category: "Development",
+    title: "Database integration with MongoDB",
+    image: databaseImage,
+    price: "$50",
+    rating: "4.90",
+    reviews: "756",
+    lessons: 10,
+    enrolled: "7k",
+    buttonMode: "double",
+    detailsLink: "/courses/mongodb",
+    enrollLink: "/courses/mongodb/enroll",
+  },
+  {
+    id: 5,
+    category: "Management",
+    title: "Risk management and business continuity",
+    image: riskImage,
+    price: "$49",
+    rating: "4.95",
+    reviews: "890",
+    lessons: 3,
+    enrolled: "8k",
+    buttonMode: "double",
+    detailsLink: "/courses/risk-management",
+    enrollLink: "/courses/risk-management/enroll",
+  },
+  {
+    id: 6,
+    category: "Development",
+    title: "Full-stack development with the MERN stack",
+    image: mernImage,
+    price: "$72",
+    rating: "5.00",
+    reviews: "1.0K",
+    lessons: 14,
+    enrolled: "23k",
+    buttonMode: "double",
+    detailsLink: "/courses/mern",
+    enrollLink: "/courses/mern/enroll",
+  },
+];
+
+export default courseData;
