@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/OnlionCourse-WES/",
+  base: "/OnlionCourse-WBS/",
 });
